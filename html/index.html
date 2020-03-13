@@ -95,7 +95,10 @@
         async function updatePreview() {
             var container = document.getElementById('location');
             var value = await ui.document.field.getValue();
-            container.innerHTML = value;
+            if (value && value !== "") {
+                value = deserialize(value);
+                container.innerHTML = "Address: " + value.address + "</br>Lat: " + value.latitude + "</br>Lon: " + value.longitude;
+            }
 
           //const data = deserialize(await ui.document.field.getValue());
 
