@@ -1,0 +1,7 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:frontend/cms/ui-extensions/locationPicker:
+      jcr:primaryType: frontend:uiExtension
+      frontend:displayName: location-picker
+      frontend:extensionPoint: document.field
+      frontend:url: http://localhost:80

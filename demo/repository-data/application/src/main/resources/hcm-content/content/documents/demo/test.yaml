@@ -1,0 +1,35 @@
+/content/documents/demo/test:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: 5638e9c7-1242-415b-a541-aa3ac3ceceed
+  /test[1]:
+    jcr:primaryType: demo:documentWithLocation
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 0672e1e0-d701-43e9-be31-7fb4414bc818
+    demo:locationPicker: '{"address":"Bloomreach, Oosteinde, Nieuwe Pijp, Amsterdam,
+      North Holland, Netherlands, 1017WT, The Netherlands","longitude":"4.9016772181871","latitude":"52.359442200000004"}'
+    demo:title: ''
+    hippo:availability: []
+    hippostd:holder: admin
+    hippostd:state: draft
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2020-03-13T11:20:26.419+01:00
+    hippostdpubwf:lastModificationDate: 2020-03-13T12:35:31.111+01:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippotranslation:id: 8afcb849-6e67-46c8-b2d3-b7663ce9f8bd
+    hippotranslation:locale: en
+  /test[2]:
+    jcr:primaryType: demo:documentWithLocation
+    jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+    jcr:uuid: ccae230f-b162-47a0-8caa-8e315958f064
+    demo:locationPicker: '{"address":"Bloomreach, Oosteinde, Nieuwe Pijp, Amsterdam,
+      North Holland, Netherlands, 1017WT, The Netherlands","longitude":"4.9016772181871","latitude":"52.359442200000004"}'
+    demo:title: ''
+    hippo:availability: [preview]
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2020-03-13T11:20:26.419+01:00
+    hippostdpubwf:lastModificationDate: 2020-03-13T12:30:06.985+01:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippotranslation:id: 8afcb849-6e67-46c8-b2d3-b7663ce9f8bd
+    hippotranslation:locale: en
